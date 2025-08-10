@@ -1,0 +1,124 @@
+StarFocus Prototype Plan: Stunning Universe-Themed React Native App
+Goal:
+Create a polished React Native prototype with:
+
+Starry, cosmic UI — dark mode, animated stars, nebula gradients, glowing buttons
+
+Core Features:
+
+Phonological drag-and-drop game with star rewards & Lexi guiding
+
+Customizable TTS for uploaded texts with speed/voice/color options
+
+Speech-to-Text dictation with live word prediction & mind-map style organizer
+
+Onboarding quiz with personalized settings
+
+Modular design to add ADHD/ASD tools later
+
+Accessibility: dyslexia-friendly fonts, color overlays, WCAG 2.1 compliant
+
+Smooth animations: letter drag, star sparkles, gentle transitions
+
+Sound effects: gentle cosmic sounds & rewarding chimes
+
+Design & UI
+Background: animated starfield or slow-moving nebula gradient
+
+Typography: OpenDyslexic font, glowing text with subtle outer glows
+
+Colors: deep space blues, purples, with neon accents (turquoise, gold)
+
+Buttons: rounded, softly glowing, with star icons
+
+Lexi: a cute futuristic robot avatar that can talk (animated speech bubble)
+
+Feedback: twinkling star animations for success, gentle pulse on interaction
+
+Tech & Tools
+React Native + Reanimated 2 for smooth animations
+
+Lottie for star sparkle animations
+
+expo-speech for TTS (or react-native-tts on bare workflow)
+
+Google Cloud Speech-to-Text for dictation & word prediction API
+
+react-native-svg for star & constellation visuals
+
+Context API or Zustand for state management, modular and scalable
+
+Accessibility hooks and custom focus controls
+
+Asset management: starry backgrounds, robot avatar, sound effects (free sources or custom made)
+
+Prototype Features & Flow
+Splash & Onboarding
+
+Cosmic splash screen with animated starfield
+
+5-question onboarding quiz with glowing selection highlights
+
+Store user preferences
+
+Phonological Game
+
+Drag letters to slots to form words (like “cat”)
+
+Letters have subtle glow & particle trails when dragged
+
+On success, stars sparkle and Lexi congratulates via TTS
+
+Option to toggle star rewards & sound effects
+
+TTS Text Reader
+
+Upload or paste text (for prototype: paste text box)
+
+Controls for voice, speed, and dyslexia-friendly overlays
+
+Highlight words as read aloud with subtle glow
+
+Background changes to reduce visual stress (blue, purple, sepia overlays)
+
+STT Dictation & Organizer
+
+Tap microphone, speak, see words appear live with confidence scores
+
+Basic word prediction below input
+
+Save dictations and organize with simple mind map UI (nodes connected by lines)
+
+Lexi offers encouragement & tips
+
+Settings & Profile
+
+Change font size, color overlays, TTS speed, star rewards, Lexi presence
+
+Toggle dark/light star themes
+
+Next Steps for Coding
+I can start with a fully themed app skeleton including:
+
+Animated starry background (Lottie or custom SVG animation)
+
+Onboarding quiz UI with starry buttons
+
+Phonological drag-and-drop with glowing letters and star reward animations
+
+Basic TTS read-aloud for pasted text with highlighting
+
+Simple STT UI mockup (actual speech API integration later)
+
+Want me to send the first React Native prototype code for this universe-themed skeleton?
+Or prefer to see mockups and UI designs first?
+
+Bonus: Sound & Animation Ideas
+Ambient space sounds loop softly in background
+
+“Whoosh” sounds when dragging letters
+
+Sparkle chime on correct word formation
+
+Lexi’s speech bubble with typing dots and voice playback animation
+
